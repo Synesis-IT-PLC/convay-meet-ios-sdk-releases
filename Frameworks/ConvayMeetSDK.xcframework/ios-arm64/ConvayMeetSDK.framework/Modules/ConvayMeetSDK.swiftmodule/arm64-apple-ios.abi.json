@@ -1,0 +1,1098 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ConvayMeetSDK",
+    "printedName": "ConvayMeetSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvayMeetSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PiPViewCoordinatorDelegate",
+        "printedName": "PiPViewCoordinatorDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "exitPictureInPicture",
+            "printedName": "exitPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK26PiPViewCoordinatorDelegateP013exitPictureInI0yyF",
+            "mangledName": "$s13ConvayMeetSDK26PiPViewCoordinatorDelegateP013exitPictureInI0yyF",
+            "moduleName": "ConvayMeetSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ConvayMeetSDK.PiPViewCoordinatorDelegate>",
+            "sugared_genericSig": "<Self where Self : ConvayMeetSDK.PiPViewCoordinatorDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13ConvayMeetSDK26PiPViewCoordinatorDelegateP",
+        "mangledName": "$s13ConvayMeetSDK26PiPViewCoordinatorDelegateP",
+        "moduleName": "ConvayMeetSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PiPViewCoordinator",
+        "printedName": "PiPViewCoordinator",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Position",
+            "printedName": "Position",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "lowerRightCorner",
+                "printedName": "lowerRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConvayMeetSDK.PiPViewCoordinator.Position.Type) -> ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO16lowerRightCorneryA2EmF",
+                "moduleName": "ConvayMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperRightCorner",
+                "printedName": "upperRightCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConvayMeetSDK.PiPViewCoordinator.Position.Type) -> ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO16upperRightCorneryA2EmF",
+                "moduleName": "ConvayMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "lowerLeftCorner",
+                "printedName": "lowerLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConvayMeetSDK.PiPViewCoordinator.Position.Type) -> ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO15lowerLeftCorneryA2EmF",
+                "moduleName": "ConvayMeetSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "upperLeftCorner",
+                "printedName": "upperLeftCorner",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ConvayMeetSDK.PiPViewCoordinator.Position.Type) -> ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Position",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                        "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Position",
+                            "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO15upperLeftCorneryA2EmF",
+                "moduleName": "ConvayMeetSDK"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "ConvayMeetSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivp",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO9hashValueSivg",
+                    "moduleName": "ConvayMeetSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8PositionO",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dragBoundInsets",
+            "printedName": "dragBoundInsets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvp",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvp",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvg",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvg",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEdgeInsets",
+                    "printedName": "UIKit.UIEdgeInsets",
+                    "usr": "c:@S@UIEdgeInsets"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvs",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0Vvs",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0VvM",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC15dragBoundInsetsSo06UIEdgeI0VvM",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialPositionInSuperView",
+            "printedName": "initialPositionInSuperView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovp",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovp",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovg",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovg",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Position",
+                    "printedName": "ConvayMeetSDK.PiPViewCoordinator.Position",
+                    "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8PositionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovs",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0Ovs",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0OvM",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC26initialPositionInSuperViewAC0H0OvM",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "c",
+            "printedName": "c",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvp",
+            "moduleName": "ConvayMeetSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvg",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvs",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC1c14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC1c12CoreGraphics7CGFloatVvM",
+                "moduleName": "ConvayMeetSDK",
+                "deprecated": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any ConvayMeetSDK.PiPViewCoordinatorDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ConvayMeetSDK.PiPViewCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "any ConvayMeetSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:13ConvayMeetSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any ConvayMeetSDK.PiPViewCoordinatorDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PiPViewCoordinatorDelegate",
+                        "printedName": "any ConvayMeetSDK.PiPViewCoordinatorDelegate",
+                        "usr": "s:13ConvayMeetSDK26PiPViewCoordinatorDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8delegateAA0deF8Delegate_pSgvM",
+                "moduleName": "ConvayMeetSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(withView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PiPViewCoordinator",
+                "printedName": "ConvayMeetSDK.PiPViewCoordinator",
+                "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC8withViewACSo6UIViewC_tcfc",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAsStickyView",
+            "printedName": "configureAsStickyView(withParentView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC21configureAsStickyView010withParentJ0ySo6UIViewCSg_tF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC21configureAsStickyView010withParentJ0ySo6UIViewCSg_tF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC4show10completionyySbcSg_tF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hide",
+            "printedName": "hide(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC4hide10completionyySbcSg_tF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enterPictureInPicture",
+            "printedName": "enterPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC014enterPictureInH0yyF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC014enterPictureInH0yyF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "exitPictureInPicture",
+            "printedName": "exitPictureInPicture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC013exitPictureInH0yyF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC013exitPictureInH0yyF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetBounds",
+            "printedName": "resetBounds(bounds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC11resetBounds6boundsySo6CGRectV_tF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC11resetBounds6boundsySo6CGRectV_tF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopDragGesture",
+            "printedName": "stopDragGesture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC15stopDragGestureyyF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC15stopDragGestureyyF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureExitPiPButton",
+            "printedName": "configureExitPiPButton(target:action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC013configureExitD7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
+            "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC013configureExitD7PButton6target6actionSo8UIButtonCyp_10ObjectiveC8SelectorVtF",
+            "moduleName": "ConvayMeetSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13ConvayMeetSDK18PiPViewCoordinatorC",
+        "mangledName": "$s13ConvayMeetSDK18PiPViewCoordinatorC",
+        "moduleName": "ConvayMeetSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvayMeetSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1354,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1424,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1495,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1891,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/rotno\/convay-meet-sdk-9646\/ios\/sdk\/src\/picture-in-picture\/PiPViewCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1992,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

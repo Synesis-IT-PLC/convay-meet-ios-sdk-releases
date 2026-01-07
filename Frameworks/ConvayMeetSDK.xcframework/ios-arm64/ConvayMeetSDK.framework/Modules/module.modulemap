@@ -1,0 +1,6 @@
+framework module ConvayMeetSDK {
+  umbrella header "ConvayMeetSDK.h"
+  export *
+
+  module * { export * }
+}
