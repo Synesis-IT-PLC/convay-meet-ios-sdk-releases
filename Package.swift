@@ -9,13 +9,21 @@ let package = Package(
     products: [
         .library(
             name: "ConvayMeetSDK",
-            targets: ["ConvayMeetSDK"]
+            targets: ["ConvayMeetSDK", "WebRTC", "GiphyUISDK"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "ConvayMeetSDK",
             path: "Frameworks/ConvayMeetSDK.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebRTC",
+            path: "RequiredFrameworks/WebRTC.xcframework"
+        ),
+        .binaryTarget(
+            name: "GiphyUISDK",
+            path: "RequiredFrameworks/GiphyUISDK.xcframework"
         )
     ]
 )
