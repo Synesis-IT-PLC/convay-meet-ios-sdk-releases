@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ConvayMeetSDK'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary          = 'Convay Meet SDK for iOS'
   s.description      = <<-DESC
     Convay Meet SDK for iOS allows you to integrate video conferencing capabilities
