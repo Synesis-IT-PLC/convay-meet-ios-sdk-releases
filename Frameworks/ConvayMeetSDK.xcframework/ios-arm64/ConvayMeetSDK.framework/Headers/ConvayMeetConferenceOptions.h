@@ -46,6 +46,16 @@
  */
 @property (nonatomic, nullable) ConvayMeetUserInfo *userInfo;
 
+/**
+ * Meeting link.
+ */
+@property (nonatomic, copy, nullable) NSString *meetingLink;
+
+/**
+ * Auth token used for Convay API access.
+ */
+@property (nonatomic, copy, nullable) NSString *authToken;
+
 - (void)setFeatureFlag:(NSString *_Nonnull)flag withBoolean:(BOOL)value;
 - (void)setFeatureFlag:(NSString *_Nonnull)flag withValue:(id _Nonnull)value;
 
@@ -60,6 +70,7 @@
 - (void)setCallHandle:(NSString *_Nonnull)callHandle;
 - (void)setCallUUID:(NSUUID *_Nonnull)callUUID;
 - (void)setSubject:(NSString *_Nonnull)subject;
+- (void)setAuthToken:(NSString *_Nullable)authToken;
 
 @end
 
@@ -69,6 +80,10 @@
 
 @property (nonatomic, copy, nullable, readonly) NSString *room;
 @property (nonatomic, copy, nullable, readonly) NSString *token;
+
+@property (nonatomic, copy, nullable, readonly) NSString *meetingLink;
+
+@property (nonatomic, copy, nullable, readonly) NSString *authToken;
 
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 

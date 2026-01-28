@@ -10,7 +10,7 @@
 		</data>
 		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
 		<data>
-		CS/kdREfKhfbTTxAXqkHGqQvPBo=
+		3BLyGGeBRgdb7yhV8t9t9n9Tq/4=
 		</data>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/ConvayMeetConferenceOptions.h</key>
 		<data>
-		Pz/hR253uieK+d/0ZiM4CMs6S54=
+		bT/TzioIKVFTx06KCvwq8mjTcl4=
 		</data>
 		<key>Headers/ConvayMeetLogger.h</key>
 		<data>
@@ -1436,10 +1436,6 @@
 		<data>
 		QsFt583jiLwp+v9FUtGo1Zm+EuY=
 		</data>
-		<key>assets/images/btn_google_signin_dark_normal.png</key>
-		<data>
-		vDLJVTKYDrduPRKle4QHleywrhY=
-		</data>
 		<key>assets/images/downloadLocalRecording.png</key>
 		<data>
 		IILPKDzitBOrc+/oMU+rsAckMKk=
@@ -1447,6 +1443,34 @@
 		<key>assets/images/dropboxLogo_square.png</key>
 		<data>
 		963TSklylFlSHuQZSvBcFw8eDEg=
+		</data>
+		<key>assets/images/fb2.png</key>
+		<data>
+		KnW55jvrA29itKyhTJIPgJFZzU8=
+		</data>
+		<key>assets/images/fb3.png</key>
+		<data>
+		4PtJaDe1buplCSLRxTX8V7Bilh0=
+		</data>
+		<key>assets/images/fb4.png</key>
+		<data>
+		ja1XsoNci4YUoHGJP0WYOvHaEzU=
+		</data>
+		<key>assets/images/fb5.png</key>
+		<data>
+		xvC+1m5PCPeesQSykYvmKCWKbn0=
+		</data>
+		<key>assets/images/fb6.png</key>
+		<data>
+		2SR9PLVoIEI5cyJyhKFRIRWQyiQ=
+		</data>
+		<key>assets/images/fb7.png</key>
+		<data>
+		JLAe1xEshwal1GggUxEd0+ed8Zs=
+		</data>
+		<key>assets/images/fb8.png</key>
+		<data>
+		OEpZbBSRcEiHiZkcbCag6UAQO7o=
 		</data>
 		<key>assets/images/global-icon.gif</key>
 		<data>
@@ -1467,6 +1491,18 @@
 		<key>assets/images/noFile.png</key>
 		<data>
 		xAajO9OdTtqMiwlX7lUQOaxQiwg=
+		</data>
+		<key>assets/images/yt1.png</key>
+		<data>
+		VDWjkiicYdmpLZV5teZd3xsB4wg=
+		</data>
+		<key>assets/images/yt2.png</key>
+		<data>
+		dtG1Oh+xZ3aC5MUxjzNvq6jat38=
+		</data>
+		<key>assets/images/yt3.png</key>
+		<data>
+		Wxz3+Tx1ntelDFO8xqOzFfam7k4=
 		</data>
 		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
 		<data>
@@ -1634,7 +1670,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		62KJ60R4YgTg1aGhk7BRkaFpF7o=
+		waOMf9lxRqaFtPexSwSd3vkr4y0=
 		</data>
 		<key>noAudioSignal.mp3</key>
 		<data>
@@ -1826,7 +1862,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			seQRyEaR8IdPeB+dY5M3af8tT23AlF+CjJxphQfMpOs=
+			01zJguIdrO1PY9umM+CsT7FH1dmC7aJr3ZtbICa8JAI=
 			</data>
 		</dict>
 		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1959,7 +1995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMtW07AtgNFU6gyGCza0xeqaxuIP8RDGTaaQ9bxsYrs=
+			FWQVijwlY6nnzRljmK2F45E/yaw9WrG0xlszn9UV6Tc=
 			</data>
 		</dict>
 		<key>Headers/ConvayMeetLogger.h</key>
@@ -3477,13 +3513,6 @@
 			KQenLeiIDdEMjFLpMcfvnyKSJooCsqFhGczlDUmwrrQ=
 			</data>
 		</dict>
-		<key>assets/images/btn_google_signin_dark_normal.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3Q+a7AKeU9OvJLLc3xnL+8q0ax8aZxHGFivTsZL/y0I=
-			</data>
-		</dict>
 		<key>assets/images/downloadLocalRecording.png</key>
 		<dict>
 			<key>hash2</key>
@@ -3496,6 +3525,55 @@
 			<key>hash2</key>
 			<data>
 			ddO0dckyW06cKOo1+01VeakgleVraFrRv3dbalArIFQ=
+			</data>
+		</dict>
+		<key>assets/images/fb2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S66CLVEr8T5pKwCHc6SKWjHyvwrD8ySyLkb7FwOkmZU=
+			</data>
+		</dict>
+		<key>assets/images/fb3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kZGSWI1IWFtHEfsjR0xNFAL8xpB1M1acSnhBEM+3Mw4=
+			</data>
+		</dict>
+		<key>assets/images/fb4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UbnTF7M03TeNAsM1XTR10vyYwWI8HQf1DwhROcf/+AQ=
+			</data>
+		</dict>
+		<key>assets/images/fb5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lt/mZv/fhEk+Hmnlel6MPeS/C5tNyU7jDYEnuekAQos=
+			</data>
+		</dict>
+		<key>assets/images/fb6.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u6tvdRQ8QOkHHuAIuBgUXYyUH1vUZAXo+f2Kgf4P8lY=
+			</data>
+		</dict>
+		<key>assets/images/fb7.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NIEGVKJ9XUdU20OnLT0KBS/9JUgAQ7euSY/dohI66PY=
+			</data>
+		</dict>
+		<key>assets/images/fb8.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NslwmXUSGcPDNq6slEgz3CcMxUB+Ha6XFwe3oyKRFwM=
 			</data>
 		</dict>
 		<key>assets/images/global-icon.gif</key>
@@ -3531,6 +3609,27 @@
 			<key>hash2</key>
 			<data>
 			Af44vb4rQZYno4onldOaLp6FxDVm61YI6DzJuo1wVZ8=
+			</data>
+		</dict>
+		<key>assets/images/yt1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0OOLpZk5v7Kx6ymcAQ5j/e1JMWB0oFd0+i8WrzwoX7E=
+			</data>
+		</dict>
+		<key>assets/images/yt2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GFb918lAqEXMYEG1zs7dQXFgJXhirogyITIvCOyziYI=
+			</data>
+		</dict>
+		<key>assets/images/yt3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CnJLSdI+NWM391PyefE3c/2MCCG530tenGG58OkpMgU=
 			</data>
 		</dict>
 		<key>assets/node_modules/@react-navigation/elements/src/assets/back-icon-mask.png</key>
@@ -3824,7 +3923,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ct9pBlSfMeSgEUDVGFI939dr2G1+v+U898vmzEBl2A=
+			tN6Kf5en6YAiNFjNVIbAuyG3KOjs72LyANj/UEN7n2I=
 			</data>
 		</dict>
 		<key>noAudioSignal.mp3</key>

@@ -4,7 +4,7 @@ This guide explains how to integrate and use the Convay Meet iOS SDK in your iOS
 
 ## 📦 SDK Information
 
-- **SDK Version**: 1.0.0
+- **SDK Version**: 1.0.1
 - **Package Name**: `ConvayMeetSDK`
 - **CocoaPods**: Available via GitHub
 - **XCFramework Location**: `ios/sdk/out/ConvayMeetSDK.xcframework` (after build)
@@ -23,16 +23,16 @@ The easiest way to integrate the SDK is via CocoaPods. The SDK is available from
 Add the following to your `Podfile`:
 
 ```ruby
-pod 'ConvayMeetSDK', :git => 'https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases.git', :tag => 'ios-sdk-1.0.0'
+pod 'ConvayMeetSDK', :git => 'https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases.git', :tag => 'ios-sdk-1.0.1'
 ```
 
 Or use the podspec directly:
 
 ```ruby
-pod 'ConvayMeetSDK', :podspec => 'https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases/raw/ios-sdk-1.0.0/ConvayMeetSDK.podspec'
+pod 'ConvayMeetSDK', :podspec => 'https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases/raw/ios-sdk-1.0.1/ConvayMeetSDK.podspec'
 ```
 
-**Note**: Replace `1.0.0` with the version you want to use. Check [GitHub Releases](https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases/releases) for available versions.
+**Note**: Replace `1.0.1` with the version you want to use. Check [GitHub Releases](https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases/releases) for available versions.
 
 #### Step 2: Install Dependencies
 
