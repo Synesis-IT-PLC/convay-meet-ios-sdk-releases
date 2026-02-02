@@ -323,53 +323,11 @@ func enterPicture(inPicture data: [AnyHashable : Any]!) {
 
 ### Picture-in-Picture
 
-The SDK supports Picture-in-Picture (PiP) functionality through the `PiPViewCoordinator` class.
+ConvayMeetView will automatically adjust its UI when presented in a Picture-in-Picture style scenario, in a rectangle too small to accommodate its "full" UI.
 
-#### Setting up PiP
+Convay Meet SDK does not currently implement native Picture-in-Picture on iOS. If desired, apps need to implement non-native Picture-in-Picture themselves and resize ConvayMeetView.
 
-```swift
-import UIKit
-import ConvayMeetSDK
-
-class ConferenceViewController: UIViewController, ConvayMeetViewDelegate {
-    
-    var convayMeetView: ConvayMeetView!
-    var pipViewCoordinator: PiPViewCoordinator?
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Create and configure the view
-        convayMeetView = ConvayMeetView()
-        convayMeetView.delegate = self
-        
-        // Add to view hierarchy
-        view.addSubview(convayMeetView)
-        convayMeetView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            convayMeetView.topAnchor.constraint(equalTo: view.topAnchor),
-            convayMeetView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            convayMeetView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            convayMeetView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
-        ])
-        
-        // Setup PiP coordinator
-        pipViewCoordinator = PiPViewCoordinator(withView: convayMeetView)
-        
-        // Join conference
-        let options = ConvayMeetConferenceOptions.fromBuilder { (builder) in
-            builder.serverURL = URL(string: "https://convay.com")
-            builder.room = roomName
-        }
-        
-        convayMeetView.join(options)
-    }
-    
-    func enterPicture(inPicture data: [AnyHashable : Any]!) {
-        pipViewCoordinator?.enterPictureInPicture()
-    }
-}
-```
+If delegate implements enterPictureInPicture:, the in-call toolbar will render a button to afford the user to request entering Picture-in-Picture.
 
 **Important Notes:**
 - `PiPViewCoordinator` doesn't have `configureAsStickyView()`, `show()`, or `hide()` methods
@@ -390,7 +348,7 @@ class ConferenceViewController: UIViewController, ConvayMeetViewDelegate {
 The SDK supports iOS screen sharing through a Broadcast Upload Extension. This allows users to share their screen during a conference.
 
 #### TL;DR
-Add a Broadcast Upload Extension, without UI, to your app. Update deployment info to run in iOS 14 or newer.
+- Add a Broadcast Upload Extension, without UI, to your app. Update deployment info to run in iOS 14 or newer.
 - Copy SampleUploader.swift, SocketConnection.swift, DarwinNotificationCenter.swift and Atomic.swift files from the sample project to your extension. Make sure they are added to the extension's target.
 - Add both the app and the extension to the same App Group. Next, add the app group id value to the app's Info.plist for the RTCAppGroupIdentifier key.
 Add a new key RTCScreenSharingExtension to the app's Info.plist with the extension's Bundle Identifier as the value.
