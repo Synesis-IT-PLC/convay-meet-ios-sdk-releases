@@ -175,6 +175,12 @@ let options = ConvayMeetConferenceOptions.fromBuilder { builder in
    builder.setFeatureFlag("recording.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("pip.enabled", withBoolean: true) // Optional
    builder.setFeatureFlag("participants.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("notifications.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("filmstrip.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("screenshare.landscape.enabled", withBoolean: true) // Optional
+
+   // Hide self-view by default
+   builder.setConfigOverride("disableSelfView", withValue: true)
 
    // Screen sharing
    builder.setFeatureFlag("ios.screensharing.enabled", withBoolean: false) // Optional
@@ -210,6 +216,12 @@ let options = ConvayMeetConferenceOptions.fromBuilder { (builder) in
    builder.setFeatureFlag("recording.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("pip.enabled", withBoolean: true) // Optional
    builder.setFeatureFlag("participants.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("notifications.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("filmstrip.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("screenshare.landscape.enabled", withBoolean: true) // Optional
+
+   // Hide self-view by default
+   builder.setConfigOverride("disableSelfView", withValue: true)
 
    // Screen sharing
    builder.setFeatureFlag("ios.screensharing.enabled", withBoolean: false) // Optional
