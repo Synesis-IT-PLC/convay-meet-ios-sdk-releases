@@ -122,11 +122,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bIEcQP6O2/2kk4j+3Z1+YxnvCD0=
+		sE+5k6Vr1aH+rdLmpQektauDVcY=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
 		huB8PZdOsJCZ5uWps7gxAwPPD+s=
+		</data>
+		<key>Lato-Black.ttf</key>
+		<data>
+		oAHrgndDY24E+O+n1K7t8FQcRqw=
+		</data>
+		<key>Lato-BlackItalic.ttf</key>
+		<data>
+		tJDsAsabt09bT0h8WemEiRyNpxw=
+		</data>
+		<key>Lato-Bold.ttf</key>
+		<data>
+		VCSYIh2XvuW9vM+G7oiQv46ABck=
+		</data>
+		<key>Lato-BoldItalic.ttf</key>
+		<data>
+		a/SR544W07nIpVdS4b1ljhXtfxk=
+		</data>
+		<key>Lato-Italic.ttf</key>
+		<data>
+		GQGHtyDsLy/y5CgSN+MBAA4JZz8=
+		</data>
+		<key>Lato-Light.ttf</key>
+		<data>
+		rQ0XhWREWlNbFdQX9bGAGZI9O6s=
+		</data>
+		<key>Lato-LightItalic.ttf</key>
+		<data>
+		NDiNmjtkOAyfCNQk0K2qiKDRZQo=
+		</data>
+		<key>Lato-Medium.ttf</key>
+		<data>
+		XJHyQ0Pm3+TU45EVy5yWXUuvgew=
+		</data>
+		<key>Lato-Regular.ttf</key>
+		<data>
+		6SPHLtpeUKh+GP9ccenvSztkVaM=
+		</data>
+		<key>Lato-SemiBold.ttf</key>
+		<data>
+		VCSYIh2XvuW9vM+G7oiQv46ABck=
+		</data>
+		<key>Lato-Thin.ttf</key>
+		<data>
+		BykERr7j+BzlAaPD2/3mCXxwyhU=
+		</data>
+		<key>Lato-ThinItalic.ttf</key>
+		<data>
+		/0oan+LcxB2ZP0xQZ6O6ocRW/5c=
 		</data>
 		<key>MaterialCommunityIcons.ttf</key>
 		<data>
@@ -514,7 +562,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		e87VEgKR1xpU2ilJaVgVyf09W5Y=
+		AP+fQk6tCuPlqkBunQmv1t+/nCE=
 		</data>
 		<key>noAudioSignal.mp3</key>
 		<data>
@@ -903,6 +951,90 @@
 			<key>hash2</key>
 			<data>
 			nH+5BxpsKFgsa4RGjL/yx6ceArF+OjtFSKFZk40ikWs=
+			</data>
+		</dict>
+		<key>Lato-Black.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q/ZM+hRkUEOnwz92Q1El+LPeecUQrbk4ocFghVGNQ0E=
+			</data>
+		</dict>
+		<key>Lato-BlackItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4esnHeOlcdVm5TTT5SHPpGvs/HiYISV7w0dFUWfVhvM=
+			</data>
+		</dict>
+		<key>Lato-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
+			</data>
+		</dict>
+		<key>Lato-BoldItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			44YR9MD/MlGlj+dRmRw5eE2Pm+QgsASJHguSdyKOwy8=
+			</data>
+		</dict>
+		<key>Lato-Italic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O+Jr9pc/Sd9qff0TAEEBc1Q0K/uwI+a5YQtC2uum3jQ=
+			</data>
+		</dict>
+		<key>Lato-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+1NDxDdcOLHDAmM201UzXmpbhTHLycZQbrS29tZ8FS8=
+			</data>
+		</dict>
+		<key>Lato-LightItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bVF287q9DMunmEUIj46e3l27e0CPtAFhlj2qlacc7y4=
+			</data>
+		</dict>
+		<key>Lato-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+waGWINhFP/4Cvze+mj11FCqXLLDKiLETPOcoAmalzw=
+			</data>
+		</dict>
+		<key>Lato-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6CVCrtgpP0n8g8Sq6lZrH2tPx6mrXaEeb7m8CXO1Mks=
+			</data>
+		</dict>
+		<key>Lato-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
+			</data>
+		</dict>
+		<key>Lato-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/uG9Haql77y5PI0HTGE3jc4VXfDTLgAZm2qUV+QnvEU=
+			</data>
+		</dict>
+		<key>Lato-ThinItalic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gTBWDaMK1vGZlP1BD3GYWsr8oVdlkiNRYf+3V1djVZQ=
 			</data>
 		</dict>
 		<key>MaterialCommunityIcons.ttf</key>
@@ -1581,7 +1713,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Igl2fPisSm39cch3fbh/B6YejQRw18ceokdJ3swFTnY=
+			X4TbU47EWrQjGopSnBkm7hVtAoLRlMgcSrI+b6QKhQQ=
 			</data>
 		</dict>
 		<key>noAudioSignal.mp3</key>
