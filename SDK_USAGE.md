@@ -161,8 +161,8 @@ let options = ConvayMeetConferenceOptions.fromBuilder { builder in
    
    builder.authToken = authToken // REQUIRED
    builder.setFeatureFlag("startpage.enabled", withBoolean: true) // REQUIRED
+   builder.setFeatureFlag("pre-start-page.enabled", withBoolean: false) // Optional
 
-   
    builder.userInfo = userInfo // Optional
 
    // Audio / Video defaults
@@ -201,9 +201,11 @@ Sample meeting link: https://convay.com/m/j/649779334794/raiyansharif?pwd=fb2f30
 
 ```swift
 let options = ConvayMeetConferenceOptions.fromBuilder { (builder) in
-   builder.setFeatureFlag("joinpage.enabled", withValue: true) // Required
-   builder.meetingLink = meetingLink // Required
-   
+   builder.meetingLink = meetingLink // REQUIRED
+   builder.setFeatureFlag("joinpage.enabled", withBoolean: true) // REQUIRED
+   builder.setFeatureFlag("prejoinpage.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("unique-participant-join.enabled", withBoolean: true) // Optional
+
    builder.userInfo = userInfo // Optional
 
    // Audio / Video defaults
@@ -216,6 +218,8 @@ let options = ConvayMeetConferenceOptions.fromBuilder { (builder) in
    builder.setFeatureFlag("recording.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("pip.enabled", withBoolean: true) // Optional
    builder.setFeatureFlag("participants.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("active-speaker-name.enabled", withBoolean: false) // Optional
+   builder.setFeatureFlag("tile-view.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("notifications.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("filmstrip.enabled", withBoolean: false) // Optional
    builder.setFeatureFlag("screenshare.landscape.enabled", withBoolean: true) // Optional
@@ -397,6 +401,95 @@ let options = ConvayMeetConferenceOptions.fromBuilder { (builder) in
 **Important:** Make sure `voip` is added to `UIBackgroundModes` in your app's `Info.plist` for screen sharing to work when the app is in the background.
 
 
+## Feature Flags
+
+Below are the main feature flags you can pass via `setFeatureFlag` on `ConvayMeetConferenceOptions`.
+Unless noted otherwise, the default is **enabled (true)**.
+
+### Core flow
+
+- `startpage.enabled`: Required for start meeting flow (token-based).
+- `joinpage.enabled`: Required for join meeting flow (link-based).
+- `unique-participant-join.enabled`: Allow duplicate JWT session handling (replacement / older session leaves). Requires the corresponding JWT claim when enabled. Default: disabled (false).
+- `prejoinpage.enabled`: Show or hide the pre-join page before entering a meeting. When enabled, participants see a preview screen (camera/mic check) before joining. Default: enabled (true).
+- `pre-start-page.enabled`: Show or hide the pre-start page before starting a meeting. When enabled, the host sees a preview screen before the meeting begins. Default: enabled (true).
+
+### UI & layout
+
+- `filmstrip.enabled`: Show filmstrip with participant thumbnails.
+- `tile-view.enabled`: Allow tile/grid view layout.
+- `fullscreen.enabled`: Use immersive full-screen mode (hides system bars in conference).
+- `toolbox.enabled`: Show the bottom toolbox (main control bar).
+- `toolbox.alwaysVisible`: Keep toolbox always visible (no auto-hide). Default: false.
+- `active-speaker-name.enabled`: Show active-speaker name label on large video / speaker view.
+
+### Media controls
+
+- `audio-mute.enabled`: Show audio mute/unmute button.
+- `video-mute.enabled`: Show video mute/unmute button.
+- `audio-only.enabled`: Show Audio Only toggle in overflow menu.
+- `resolution`: Override local / max remote resolution (e.g. `180`, `360`, `720`) as configured by the SDK.
+- `video-share.enabled`: Show the video share button.
+- `overflow-menu.enabled`: Show the overflow ("more") menu button.
+
+### Screen sharing
+
+- `ios.screensharing.enabled`: Enable iOS screen sharing. Default: disabled (false).
+- `screenshare.landscape.enabled`: Lock to landscape while any participant is screen sharing. Default: disabled (false).
+
+### Recording & streaming
+
+- `recording.enabled`: Enable recording controls. Default: auto-detected.
+- `ios.recording.enabled`: Enable iOS-specific recording UI. Default: disabled (false).
+- `live-streaming.enabled`: Enable live streaming. Default: auto-detected.
+
+### Participants & reactions
+
+- `participants.enabled`: Enable participants list / pane.
+- `raise-hand.enabled`: Enable Raise Hand feature.
+- `reactions.enabled`: Enable emoji reactions.
+- `kick-out.enabled`: Allow moderators to remove participants.
+- `breakout-rooms.enabled`: Show Breakout Rooms button in the overflow menu.
+- `replace.participant`: Join using replace-participant semantics (advanced use cases).
+
+### Communication & collaboration
+
+- `chat.enabled`: Enable in-meeting chat and related UI (including unread indicators when enabled).
+- `invite.enabled`: Enable invite UI.
+- `invite-dial-in.enabled`: Enable dial-in invite UI.
+- `add-people.enabled`: Enable Add People entry point.
+- `close-captions.enabled`: Enable subtitles / closed captions.
+
+### Notifications
+
+- `notifications.enabled`: Show in-meeting notifications (host / moderator only when enabled). Default: enabled.
+
+### Picture-in-Picture & navigation
+
+- `pip.enabled`: Enable Picture-in-Picture (where supported). Default: auto-detected.
+- `pip-while-screen-sharing.enabled`: Show PiP button while screen sharing. Default: disabled (false).
+
+### Meeting security & lobby
+
+- `meeting-password.enabled`: Show meeting password button (password dialog may still appear if the room has a password).
+- `lobby-mode.enabled`: Enable lobby mode controls.
+- `security-options.enabled`: Show Security Options button.
+- `unsaferoomwarning.enabled`: Enable unsafe-room warning. Default: disabled (false).
+
+### Misc & settings
+
+- `audio-focus.disabled`: Do **not** request audio focus (for apps managing audio themselves). Default: false.
+- `help.enabled`: Show Help button.
+- `settings.enabled`: Show Settings entry in the UI.
+- `server-url-change.enabled`: Allow changing server URL in UI.
+
+### Mobile-only
+
+- `call-integration.enabled`: Enable CallKit integration.
+- `car-mode.enabled`: Enable car mode UI on mobile.
+
+---
+
 ## Requirements
 
 - **iOS**: 13.0 or later
@@ -418,6 +511,11 @@ See [Releases](https://github.com/Synesis-IT-PLC/convay-meet-ios-sdk-releases/re
 ## License
 
 Apache License 2.0
+
+## Sample iOS App
+
+Reference implementation:
+https://github.com/Synesis-IT-PLC/convay-meet-sdk-samples/tree/main/iOS
 
 ## Support
 
