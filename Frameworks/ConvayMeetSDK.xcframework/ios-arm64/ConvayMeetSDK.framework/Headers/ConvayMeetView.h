@@ -36,6 +36,12 @@
  * Leaves the currently active conference.
  */
 - (void)leave;
+
+/**
+ * Returns whether the React Native root view is currently mounted.
+ */
+- (BOOL)hasReactRootView;
+
 - (void)hangUp;
 - (void)setAudioMuted:(BOOL)muted;
 - (void)sendEndpointTextMessage:(NSString * _Nonnull)message :(NSString * _Nullable)to;
