@@ -8,14 +8,6 @@
 		<data>
 		TneGhDkoD7Q01Gl8e5EScUBsgfM=
 		</data>
-		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
-		<data>
-		6sJuY2EfgSnwCoKc40IxphUkjoM=
-		</data>
-		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		MCDRptixYfA+qALBX9b4uxq3rwo=
-		</data>
 		<key>CallKitIcon.png</key>
 		<data>
 		qU7OsCaFMpm2j24h/zSvv3VMZGY=
@@ -122,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TkR+/IUh6cAApDbQ497kZmCi5Yg=
+		jA7r6oYz9jkiUaWAb3GuZ8bDSLQ=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -135,10 +127,6 @@
 		<key>Lato-BlackItalic.ttf</key>
 		<data>
 		tJDsAsabt09bT0h8WemEiRyNpxw=
-		</data>
-		<key>Lato-Bold.ttf</key>
-		<data>
-		VCSYIh2XvuW9vM+G7oiQv46ABck=
 		</data>
 		<key>Lato-BoldItalic.ttf</key>
 		<data>
@@ -166,7 +154,7 @@
 		</data>
 		<key>Lato-SemiBold.ttf</key>
 		<data>
-		VCSYIh2XvuW9vM+G7oiQv46ABck=
+		s2vCCtoilSao4jjdokKRTEdBewM=
 		</data>
 		<key>Lato-Thin.ttf</key>
 		<data>
@@ -183,14 +171,6 @@
 		<key>MaterialIcons.ttf</key>
 		<data>
 		fgLD8AVTL/TSQUhWfIQIl1anhIo=
-		</data>
-		<key>Mixpanel.bundle/Info.plist</key>
-		<data>
-		ZmIr0mHROf1whjDe0AZSThfSQQQ=
-		</data>
-		<key>Mixpanel.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		CLjGR6ANQPfuQZ/E49Z3qKLsq/M=
 		</data>
 		<key>Modules/ConvayMeetSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -210,7 +190,7 @@
 		</data>
 		<key>Modules/ConvayMeetSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bTfE7YOBeuMubci6mYd3589iAKQ=
+		6wHHogJ3RmFZ8Jxsb4ayMBZOhMk=
 		</data>
 		<key>Modules/ConvayMeetSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -230,7 +210,7 @@
 		</data>
 		<key>Modules/ConvayMeetSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ue9jd/IS9Jev1g89W5XY7n+1pYI=
+		l8UqeP/8yO2xB78XaatYZkA4I68=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -242,7 +222,7 @@
 		</data>
 		<key>RCT-Folly_privacy.bundle/Info.plist</key>
 		<data>
-		MJZxnKbZy2dEixMiAXVlDC5/AUc=
+		hYrSEVBnQWPRqlQc+4+uOJLOHPE=
 		</data>
 		<key>README.md</key>
 		<data>
@@ -250,7 +230,7 @@
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/Info.plist</key>
 		<data>
-		XS3Q4Sh5FtVuH7cYJv+nj3MN/j8=
+		teAMYqLPPW5YXHIi8l3kvFbtWyA=
 		</data>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -258,7 +238,7 @@
 		</data>
 		<key>RNDeviceInfoPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		W37lRpRiDz6c8PylboUfmfXtXb0=
+		KwG6YwoajHa4uyZ7Jqq/xOJomp8=
 		</data>
 		<key>RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -266,7 +246,7 @@
 		</data>
 		<key>RNImagePickerPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		gFPjmoyq6FhhFy5M0I3Dfsa5yTI=
+		p+ed+0dnu7fJe1PuIwgAJcqOhvI=
 		</data>
 		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -274,7 +254,7 @@
 		</data>
 		<key>RNPermissionsPrivacyInfo.bundle/Info.plist</key>
 		<data>
-		iGJ7iPl4hvZlE0LefEz1x6Pu72s=
+		uzrzUB7+tM2Rg9Oujh8tQhl413I=
 		</data>
 		<key>RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -282,7 +262,7 @@
 		</data>
 		<key>RNSVGFilters.bundle/Info.plist</key>
 		<data>
-		A7YPL9/ffRivNATVPiLTkKpyq1M=
+		h9rXF7WiAn22aSUGyGX6/8tztOA=
 		</data>
 		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
 		<data>
@@ -294,7 +274,7 @@
 		</data>
 		<key>React-Core_privacy.bundle/Info.plist</key>
 		<data>
-		bteibYsl+dB6xKru4H0Og0GW1g4=
+		Z7kW7A4HNwB3y2p70qOvyyZqO2I=
 		</data>
 		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -302,7 +282,7 @@
 		</data>
 		<key>React-cxxreact_privacy.bundle/Info.plist</key>
 		<data>
-		i8Zj/XuMlS/cKtMH2f99VDiGmt8=
+		KZq1pmQz3gHVsu1csKSM0dzEeRk=
 		</data>
 		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -426,7 +406,7 @@
 		</data>
 		<key>boost_privacy.bundle/Info.plist</key>
 		<data>
-		tkTI4tb6CUK7mUaantiEEnzcFio=
+		8TX5qsA844dCYSAMcIMH8hbGrY0=
 		</data>
 		<key>e2eeOff.mp3</key>
 		<data>
@@ -478,7 +458,7 @@
 		</data>
 		<key>glog_privacy.bundle/Info.plist</key>
 		<data>
-		rh604gwbQj07ZEvGjpDgR6y7nEQ=
+		eG5HKy8JOsG9EMA6icLJwAVLDPU=
 		</data>
 		<key>image-resize@2x.png</key>
 		<data>
@@ -519,6 +499,10 @@
 		<key>knock.opus</key>
 		<data>
 		R4GnIdc9J9p/VhxI8vIM0wIe45k=
+		</data>
+		<key>lato-Bold.ttf</key>
+		<data>
+		VCSYIh2XvuW9vM+G7oiQv46ABck=
 		</data>
 		<key>left.mp3</key>
 		<data>
@@ -582,7 +566,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		29hHjoRDTJ0xkUp2Jj71/pCQg0k=
+		15UuV5w7H8cSblEfMXMe71jbEsk=
 		</data>
 		<key>noAudioSignal.mp3</key>
 		<data>
@@ -768,20 +752,6 @@
 			<key>hash2</key>
 			<data>
 			eVXKFBJ7MEEsEU6xPP1wK12rJl/rGIDRaV1zyqgkzeE=
-			</data>
-		</dict>
-		<key>AppAuthCore_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wqqwm6zaEeB1dsHzwLF7d8tfo4HS2N4icDKEoTeZwmE=
-			</data>
-		</dict>
-		<key>AppAuthCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wt6WL6rqHt273QbEz4qHLOxVT2TFWgDgATYATTeOHO0=
 			</data>
 		</dict>
 		<key>CallKitIcon.png</key>
@@ -987,13 +957,6 @@
 			4esnHeOlcdVm5TTT5SHPpGvs/HiYISV7w0dFUWfVhvM=
 			</data>
 		</dict>
-		<key>Lato-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
-			</data>
-		</dict>
 		<key>Lato-BoldItalic.ttf</key>
 		<dict>
 			<key>hash2</key>
@@ -1040,7 +1003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
+			Hja8vJ6OURFPyDMxlrgclhdUM9nBTrQIrjkAj2D39/s=
 			</data>
 		</dict>
 		<key>Lato-Thin.ttf</key>
@@ -1069,20 +1032,6 @@
 			<key>hash2</key>
 			<data>
 			7xSfCL3S/wmk4shXNHa3sPP7sVtiOVSt5ZiZ5xdb7do=
-			</data>
-		</dict>
-		<key>Mixpanel.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YX4y6BWkmBpuyQGYdwkV/DDZ0buqZpehZkw2PGHwvEY=
-			</data>
-		</dict>
-		<key>Mixpanel.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Sc9JmUML/ZuMAMVfSL+0xFE828rkwaMb15Z1zRkLXc8=
 			</data>
 		</dict>
 		<key>Modules/ConvayMeetSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -1117,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OYjPPzIrSdDhwJ/j8mv0PloSPmRuc16esUSBFql+sLY=
+			acQJmNRfl1TqxUUXFGdV5Zi7tUMc2cYSXYfbrBc/8fE=
 			</data>
 		</dict>
 		<key>Modules/ConvayMeetSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1152,7 +1101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOFH045xVEcfSZsIon4pJlw+EK361kGZvZYcZfpEnaY=
+			3CEcOVEtRVkukGVOmNs6+caL1rv0H9VrdkSojjk4qzI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1173,7 +1122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PhyP746CGLkDZ5qdDwNxYiHgh3jNlAzO/aNR7yc5n64=
+			VkiomUeBDHjENBcBtpaL5R5RoJcYOnAaVJbqEZByyj0=
 			</data>
 		</dict>
 		<key>README.md</key>
@@ -1187,7 +1136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			64SwHqOsYGn1K92fCOD6nO77hWzV5I1xCHBJPo8aoM4=
+			qoIwKWMAWi8cEUZ7u0op9oEHxXQKb4WA5zfGfxxMC1o=
 			</data>
 		</dict>
 		<key>RNCAsyncStorage_resources.bundle/PrivacyInfo.xcprivacy</key>
@@ -1201,7 +1150,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GvSkhYwfN28wdaIYI/lejm2LdEHd2f4XRGME5bID958=
+			/6gBJH4FyaisrClOF+d2Nh0kRuyh3gd0MwR3tDutmnk=
 			</data>
 		</dict>
 		<key>RNDeviceInfoPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -1215,7 +1164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qh1OHYABszrLAi9ldMUSDqKBcubPTFnHRcO3+j8lZLE=
+			6vBEuG5NNw02O2r0lfwaZF9B30Z1tjeS0UjIXXCG+PY=
 			</data>
 		</dict>
 		<key>RNImagePickerPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -1229,7 +1178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			umUX0uub5faa2SE/8WkNoKLhVmmvIlzV6a2lcvKIW4U=
+			5uzUQO9YMDAZtbrA7+zZGIXwrfKt/w6MA82s9+j5yjk=
 			</data>
 		</dict>
 		<key>RNPermissionsPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -1243,7 +1192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GOy2CTRG2h6K6dYgkMjcuP20fP2mE40QYia2HkiweC8=
+			VtCD7N6RasweYI1XG8wwtkut6TiV3EplBWheuTIAWuA=
 			</data>
 		</dict>
 		<key>RNSVGFilters.bundle/RNSVGArithmeticFilter.iphoneos.metallib</key>
@@ -1264,7 +1213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			URY8YuX5OA2m6YNhwdSGE7mhtmdgQa0PEJE6C3CDW54=
+			iYdFFeR4xA0+O7msIe5pCZBbHuX3MFEgkJ0fefj2blQ=
 			</data>
 		</dict>
 		<key>React-Core_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1278,7 +1227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M1CqYoAI/MPQf8I07iS+wGPazky/Sc5g2TPVnGCZj+k=
+			UZpM3JnpwzNANBMurEbsfvs47e/3m1J7RVJSuVpz+Os=
 			</data>
 		</dict>
 		<key>React-cxxreact_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -1495,7 +1444,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1u2hZKSyAX/ZCt3I03zY7oGnHmBTed7eNaQrCSN7wW8=
+			VtI4djskitTvjfEL8C6h0Sz1EwRTWet8dknCEu0Kedw=
 			</data>
 		</dict>
 		<key>e2eeOff.mp3</key>
@@ -1586,7 +1535,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yBEajRvj7Z/an35Rj56tplii+AH8dZbx61mONN9rC1o=
+			YtxoOMOfByA0wmIThidKUscS1I7J1Et0IwcSmPEOugc=
 			</data>
 		</dict>
 		<key>image-resize@2x.png</key>
@@ -1657,6 +1606,13 @@
 			<key>hash2</key>
 			<data>
 			/SonutdIHOU6rinoh5NCrX15su1LiT81JngWibRRZJM=
+			</data>
+		</dict>
+		<key>lato-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
 			</data>
 		</dict>
 		<key>left.mp3</key>
@@ -1768,7 +1724,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cmPtC/at0vAvqP1+ILvbshjpwugLiSGyef+RBm8AqFI=
+			PgcaDhJHD3if1RC3Kg2bx9jzFhS6Nw5iLUPVAB773Fo=
 			</data>
 		</dict>
 		<key>noAudioSignal.mp3</key>
